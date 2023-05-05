@@ -1,0 +1,68 @@
+.content {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2e948a;
+    position: fixed;
+    padding-left: 15rem;
+    z-index: 9999;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 10rem;
+}
+
+.logo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-size: auto;
+}
+
+.logo img {
+    width: 150px;
+    height: 50px;
+}
+
+body {
+   background-color: auto;
+}
+
+.content .list-menu {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .list-menu li{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .list-menu li a {
+    padding: 3rem 1rem 2rem 1rem;
+    color: white;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all 200ms ease-in;
+}
+
+.content .list-menu li a:hover {
+    background-color: #8cc9b0f7;
+    border-bottom: 4px solid white;
+    color: white;
+}
+
+section {
+    padding-top: 0px;
+}

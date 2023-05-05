@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -52,7 +53,6 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	font-family: Ubuntu;
 	text-align: left;
 	font-size: 40px; /* Diminuí a fonte para 40px */
 	letter-spacing: -1px; /* Reduz o espaçamento entre as letras */
@@ -65,7 +65,6 @@ body{
 	position: absolute;
 	left: 1px;
 	top: 235px;
-	font-family: Ubuntu;
 	text-align: left;
 	font-size: 20px; /* Diminuí a fonte para 20px */
 	letter-spacing: -1px; /* Reduz o espaçamento entre as letras */
@@ -86,10 +85,7 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	border-top-left-radius: 62px;
-	border-top-right-radius: 62px;
-	border-bottom-left-radius: 62px;
-	border-bottom-right-radius: 62px;
+	border-radius: 62px;
 }
 
 .v1_93 { 
@@ -99,7 +95,6 @@ body{
 	position: absolute;
 	left: 26px;
 	top: 8.5px;
-	font-family: Ubuntu;
 	text-align: left;
 	font-size: 20px; /* Diminuí a fonte para 20px */
 	letter-spacing: -1px; /* Reduz o espaçamento entre as letras */

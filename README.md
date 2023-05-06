@@ -1,5 +1,3 @@
-# IBRF DINDIN
- 
 # Projeto Integrador IBRF<>Tech com parceria da Gama Academy
 DINDIN - Site Financeiro
 O projeto DINDIN é um site financeiro que consiste em seis telas, com o objetivo de fornecer uma experiência responsiva e de alta qualidade aos usuários. O site foi desenvolvido utilizando HTML (Bootstrap), CSS e Javascript.]

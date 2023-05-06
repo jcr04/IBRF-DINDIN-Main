@@ -20,20 +20,3 @@ html {
 body{
     background-color: #e5e5e5;
 }
-
-.v1_86 { 
-	overflow: hidden;
-	width: 1028px;
-	height: 521px;
-	position: absolute;
-}
-
-.v1_87 { 
-	background-color: rgba(44, 44, 44, 1);
-	width: 501px;
-	height: 511px;
-	position: absolute;
-	left: 527px;
-	top: 10px;
-	border: 2px solid rgba(85, 85, 85, 1);
-}

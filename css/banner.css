@@ -1,0 +1,64 @@
+.v1_88 { 
+	width: 488px;
+	height: 386px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.v1_89 { 
+	color: rgba(255, 64, 129, 1);
+	width: 488px;
+	height: 216px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	text-align: left;
+	font-size: 40px; /* Diminuí a fonte para 40px */
+	letter-spacing: -1px; /* Reduz o espaçamento entre as letras */
+}
+
+.v1_90 { 
+	color: rgba(85, 85, 85, 1);
+	width: 462px;
+	height: 62px;
+	position: absolute;
+	left: 1px;
+	top: 235px;
+	text-align: left;
+	font-size: 20px; /* Diminuí a fonte para 20px */
+	letter-spacing: -1px; /* Reduz o espaçamento entre as letras */
+}
+
+.v1_91 { 
+	width: 268px;
+	height: 51px;
+	position: absolute;
+	left: 1px;
+	top: 335px;
+}
+
+.v1_92 { 
+	border: 2px solid rgba(255, 64, 129, 1);
+	width: 268px;
+	height: 51px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border-radius: 62px;
+}
+
+.v1_93 { 
+	color: rgba(255, 64, 129, 1);
+	width: 216px;
+	height: 20.269229888916016px;
+	position: absolute;
+	left: 26px;
+	top: 8.5px;
+	text-align: left;
+	font-size: 20px; /* Diminuí a fonte para 20px */
+	letter-spacing: -1px; /* Reduz o espaçamento entre as letras */
+}
+.v1_88 {
+    margin-right: 20px;
+  }

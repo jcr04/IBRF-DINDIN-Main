@@ -10,13 +10,13 @@ O projeto DINDIN é um site financeiro que consiste em seis telas, com o objetiv
 # Contribuidores do Projeto
 
 ## Líderes:
-Laura Carvalho De Barros
+Laura Carvalho De Barros,
 João Carlos Silva Rebouças
 
 ## Programadores:
-Judriani de Brito
-Edison de F. Ventura Junior
-Majida Ali Abou Nouh
+Judriani de Brito,
+Edison de F. Ventura Junior,
+Majida Ali Abou Nouh e
 João Mendonça
 
 ## Orientação
@@ -25,8 +25,8 @@ O projeto foi orientado pelo Professor Claudio Raposo, que desempenhou um papel 
 # Tecnologias Utilizadas
 As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 
-HTML (Bootstrap)
-CSS
+HTML (Bootstrap),
+CSS,
 Javascript
 Essas tecnologias foram escolhidas para garantir a criação de um site responsivo e com recursos avançados de interatividade.
 

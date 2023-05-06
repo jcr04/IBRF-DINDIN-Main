@@ -1,0 +1,74 @@
+    .v1_88 {
+    width: 488px;
+    height: 386px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-right: 20px;
+  }
+  
+  .EducaçãoFinanceira {
+    width: 488px;
+    height: 216px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 100%;
+    color: rgba(255, 64, 129, 1);
+  }
+
+    .Vemcomigo {
+        width: 462px;
+        font-size: 27px;
+        line-height: 100%;
+        color: rgba(85, 85, 85, 1);
+      }
+  
+  .v1_91 {
+    width: 268px;
+    height: 51px;
+    position: relative;
+    left: 1px;
+    top: 335px;
+  }
+  
+  .v1_92 {
+    border: 2px solid rgba(255, 64, 129, 1);
+    width: 268px;
+    height: 51px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    border-radius: 62px;
+  }
+  
+  
+  .querosaber {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    color: rgba(255, 64, 129, 1);
+    text-align: center;
+    font-size: 27px;
+    line-height: 100%;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .querosaber button {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 64, 129, 1);
+    border: none;
+    border-radius: 62px;
+    color: #fff;
+    font-size: 27px;
+    line-height: 100%;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .querosaber button:hover {
+    width: 100%;
+  }
+  

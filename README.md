@@ -8,7 +8,7 @@ O projeto DINDIN é um site financeiro que consiste em seis telas, com o objetiv
 # Contribuidores do Projeto
 
 ## Líderes:
-João Carlos Silva Rebouças
+João Carlos Silva Rebouças e
 Laura Carvalho De Barros.
 
 

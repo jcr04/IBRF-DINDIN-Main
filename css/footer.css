@@ -15,8 +15,32 @@
   max-width: 100%;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: block;
+  justify-content: space-around;
+}
+
+nav li {
+  margin: 2px;
+}
+
+nav li a {
+  font-family: "Ubuntu";
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fdfdfd;
+}
+
 .coluna-cursos {
-  color: inherit;
+  color: white;
   text-decoration: none;
   margin-right: 115px;
   align-items: center;

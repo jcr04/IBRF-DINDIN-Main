@@ -9,27 +9,38 @@
 }
 
 .coluna-img {
-  width: 100%;
+  width: 30%;
   align-items: center;
   padding: 5px;
   max-width: 100%;
 }
 
-.menu-list-footer {
+nav {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+nav ul {
+  list-style: none;
+  display: block;
+  justify-content: space-around;
+}
 
-.menu-list-footer li a {
-  font-size: 14px;
+nav li {
+  margin: 2px;
+}
+
+nav li a {
+  font-family: "Ubuntu";
+  font-size: 1.25rem;
   font-weight: 700;
   text-decoration: none;
   color: #fdfdfd;
 }
 
 .coluna-cursos {
+  color: white;
   text-decoration: none;
   margin-right: 115px;
   align-items: center;
@@ -38,18 +49,6 @@
 
 .menu-list-footer {
   padding: 0px;
-  list-style: none;
-  display: block;
-  justify-content: space-around;
-}
-
-.menu-list-footer li a:hover {
-  text-decoration: none;
-  color: #ff4081;
-}
-
-.menu-list-footer li {
-  margin: 2px;
 }
 
 .menu-footer-1 {
@@ -95,11 +94,6 @@
   background-color: transparent;
   border: 2px solid white;
   border-radius: 62px;
-}
-
-.btn-footer-1:hover, .btn-footer-2:hover {
-  background-color: #8cc9b0f7;
-  color: white;
 }
 
 .btn-footer-2 {

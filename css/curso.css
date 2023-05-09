@@ -1,0 +1,191 @@
+.bg-cursos {
+    background: #f6f6f6;
+    width: 1440px;
+    height: 1235px;
+    position: absolute;
+    left: 0px;
+    top: 659px;
+  }
+  .aula-3 {
+    position: absolute;
+    inset: 0;
+  }
+  .nemo-enim-ipsam-voluptatem-quia-voluptas-sit-aspernatur-aut-odit-aut-fugit-sed-quia-consequuntur-magni-dolores-eos-qui-ratione-voluptatem-sequi-nesciunt-ipsam-voluptatem-quia-voluptas-sit-aspernatur-aut-odit-aut-fugit-sed-quia-consequuntur-magni-dolores-eos-qui-ratione-voluptatem-sequi-nesciunt {
+    color: #000000;
+    text-align: left;
+    font: 300 20px "Ubuntu", sans-serif;
+    position: absolute;
+    left: 750px;
+    top: 1624px;
+    width: 501px;
+    height: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .aula-32 {
+    color: #ff4081;
+    text-align: left;
+    font: 700 35px "Ubuntu", sans-serif;
+    position: absolute;
+    left: 750px;
+    top: 1558px;
+    width: 512px;
+  }
+  .group-32 {
+    width: 462px;
+    height: 261px;
+    position: static;
+  }
+  .rectangle-20 {
+    border-style: solid;
+    border-color: #8e8e8e;
+    border-width: 3px;
+    width: 462px;
+    height: 261px;
+    position: absolute;
+    left: 212px;
+    top: 1558px;
+  }
+  .play {
+    position: absolute;
+    left: 398px;
+    top: 1644px;
+    overflow: visible;
+  }
+  .linha {
+    background: #c4c4c4;
+    width: 1244px;
+    height: 3px;
+    position: absolute;
+    left: 98px;
+    top: 1480px;
+  }
+  .aula-2 {
+    position: absolute;
+    inset: 0;
+  }
+  .nemo-enim-ipsam-voluptatem-quia-voluptas-sit-aspernatur-aut-odit-aut-fugit-sed-quia-consequuntur-magni-dolores-eos-qui-ratione-voluptatem-sequi-nesciunt-ipsam-voluptatem-quia-voluptas-sit-aspernatur-aut-odit-aut-fugit-sed-quia-consequuntur-magni-dolores-eos-qui-ratione-voluptatem-sequi-nesciunt2 {
+    color: #000000;
+    text-align: left;
+    font: 300 20px "Ubuntu", sans-serif;
+    position: absolute;
+    left: 750px;
+    top: 1212px;
+    width: 501px;
+    height: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .aula-22 {
+    color: #ff4081;
+    text-align: left;
+    font: 700 35px "Ubuntu", sans-serif;
+    position: absolute;
+    left: 750px;
+    top: 1146px;
+  }
+  .rectangle-202 {
+    border-style: solid;
+    border-color: #8e8e8e;
+    border-width: 3px;
+    width: 462px;
+    height: 261px;
+    position: absolute;
+    left: 212px;
+    top: 1146px;
+  }
+  .play2 {
+    position: absolute;
+    left: 398px;
+    top: 1232px;
+    overflow: visible;
+  }
+  .linha2 {
+    background: #c4c4c4;
+    width: 1244px;
+    height: 3px;
+    position: absolute;
+    left: 98px;
+    top: 1068px;
+  }
+  .aula-1 {
+    position: absolute;
+    inset: 0;
+  }
+  .nemo-enim-ipsam-voluptatem-quia-voluptas-sit-aspernatur-aut-odit-aut-fugit-sed-quia-consequuntur-magni-dolores-eos-qui-ratione-voluptatem-sequi-nesciunt-ipsam-voluptatem-quia-voluptas-sit-aspernatur-aut-odit-aut-fugit-sed-quia-consequuntur-magni-dolores-eos-qui-ratione-voluptatem-sequi-nesciunt3 {
+    color: #000000;
+    text-align: left;
+    font: 300 20px "Ubuntu", sans-serif;
+    position: absolute;
+    left: 751px;
+    top: 800px;
+    width: 501px;
+    height: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .aula-12 {
+    color: #ff4081;
+    text-align: left;
+    font: 700 35px "Ubuntu", sans-serif;
+    position: absolute;
+    left: 751px;
+    top: 734px;
+    width: 512px;
+  }
+  .group-31 {
+    width: 462px;
+    height: 261px;
+    position: static;
+  }
+  .rectangle-203 {
+    border-style: solid;
+    border-color: #8e8e8e;
+    border-width: 3px;
+    width: 462px;
+    height: 261px;
+    position: absolute;
+    left: 213px;
+    top: 734px;
+  }
+  .play3 {
+    position: absolute;
+    left: 399px;
+    top: 820px;
+    overflow: visible;
+  }
+  .intro {
+    position: absolute;
+    inset: 0;
+  }
+  .sed-ut-perspiciatis-unde-omnis-iste-natus-error-sit-voluptatem-accusantium-doloremque-laudantium-totam-rem-aperiam-eaque-ipsa-quae-ab-illo-inventore-veritatis-et-quasi-architecto-beatae-vitae-dicta-sunt-explicabo-nemo-enim-ipsam-voluptatem-quia-voluptas-sit-aspernatur-aut-odit-aut-fugit-sed-quia-consequuntur-magni-dolores-eos-qui-ratione-voluptatem-sequi-nesciunt {
+    color: #000000;
+    text-align: left;
+    font: 300 20px "Ubuntu", sans-serif;
+    position: absolute;
+    left: 202px;
+    top: 358px;
+    width: 461px;
+    height: 186px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .investimento-para-iniciantes {
+    color: #ff4081;
+    text-align: left;
+    font: 700 55px "Ubuntu", sans-serif;
+    position: absolute;
+    left: 202px;
+    top: 210px;
+    width: 512px;
+  }
+  .img-dv1 {
+    position: absolute;
+    left: 751px;
+    top: 197px;
+    overflow: visible;
+  }

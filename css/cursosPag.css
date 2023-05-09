@@ -2,62 +2,128 @@
     --cor-btn: #FF4081;
 }
 
-.cursos {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 80%;
-    background-color: #F7F7F7;
+.cursosPag{
+    display: block;
+    margin-left: 10%;
+   
+}
+.primeira-divisaoPag{
+    display: inline-flex;
+    text-align: center;
     
-
 }
 
-.primeira-divisao {
 
-    height: 504px;
-    left: 128px;
-    top: 938px;
-    margin-top: 10%;
-
+.titulo{
+    padding-top: 70px;
+}
+.titulo h1{
+width: 263px;
+height: 69px;
+left: 82px;
+top: 198px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 69px;
+text-transform: capitalize;
+color: #FF4081;
+margin-top: 80px;
+}
+.titulo h3{
+width: 317px;
+height: 23px;
+left: 82px;
+top: 267px;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+color: #555555;
+}
+.titulo{
+    padding-left: 80px;
+    padding-bottom: 50px;
+}
+.cursosPag h2{
+width: 512px;
+height: 40px;
+left: 545px;
+top: 406px;
+font-weight: 700;
+font-size: 35px;
+line-height: 40px;
+color: #FF4081;
+text-align: justify;
+}
+.cursosPag p{
+ Max-width: 724px;
+left: 545px;
+top: 483px;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+text-align: justify;
 }
 
-.segunda-divisao {
-    width: 33, 33%;
-    height: 504px;
-    left: 128px;
-    top: 938px;
-    margin-top: 10%;
-}
+.cursosPag button{
 
-.terceira-divisao {
-    width: 33, 33%;
-    height: 299px;
-    left: 128px;
-    top: 938px;
-    margin-top: 10%;
-}
-
-.cursos img {
-    left: 10.83%;
-    right: 69.17%;
-    top: 29.34%;
-    bottom: 62.21%;
-    width: 288px;
-    margin-left: 6%;
+background: #419488;
+border-radius: 62px;
+width: 216px;
+height: 50px;
+left: 554px;
+top: 654px;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
 
 }
-
-.img-dv3 {
-    left: 10.83%;
-    right: 69.17%;
-    top: 20.34%;
-    bottom: 62.21%;
-    width: 288px;
-    height: 291px;
+.curso-iniciante{
+    display: grid;
+    margin: 0px 0 100px 50px;
+    
+}
+.sombra{
+width: 90%;
+height: 5px;
+left: 82px;
+top: 834px;
+background: #C4C4C4;
+}
+.primeira-divisaoPag{
+    margin: 50px 0 100px 0;
+}
+.segunda-divisaoPag{
+    display: inline-flex;
+    text-align: center;
+    margin: 50px 0 100px 0;
+}
+.terceira-divisaoPag{
+    display: inline-flex;
+    text-align: center;
+    margin: 50px 0 100px 0;
+}
+.terceira-divisaoPag img{
+    left: 8.89%;
+right: 64.72%;
+top: 62.61%;
+width: 380px;
+height: 498px;
+}
+.cursosPag button:hover{
+    background-color: #ffffff;
+    color: #419488;
+    border: 1px solid #419488;
 }
 
-.cursos h2 {
+/*modal*/
 
+  /*Modal*/
+  .modal-body h2{
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
@@ -66,25 +132,18 @@
     color: var(--cor-btn);
     margin-top: 16px;
 }
+.modal-body p{
+   text-align: center;
+    font-size: 15px;
 
-.cursos p {
-    width: 293px;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 20px;
-    text-align: center;
-    color: #000000;
-    margin-top: 16px;
-    margin-bottom: 2rem;
 }
-
-
-
-.cursos button {
-    width: 233px;
+.modal-body h3{
+    color:  #555555;
+}
+.bodyModal button{
+   width: 50%;
     height: 51px;
-    background-color: var(--cor-btn);
+    background-color: #419488;
     border-radius: 62px;
     font-family: 'Ubuntu';
     font-style: normal;
@@ -93,125 +152,156 @@
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
-    margin-left: 10%;
+   
+}
+.bodyModal button:hover{
+    background-color: #FFFFFF;
+    color: #419488;
+    border: 1px solid  #419488;
+}
+.modal-body{
+    width: 100%;
+    height: 63vh;
+}
+.bodyModal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bodyModal img{
+    width: 50%;
+}
+.bodyModal h3{
+font-weight: 700;
+}
+#p-curso{
+    text-align: justify;
+}
+.modal-footer button{
+    width: 68px;
+    height: 21px;
+   
+}
+
+
+@media screen and (max-width: 1116px) {
+   
+.cursosPag img{
+    width: 373px;
+    height: 254px;
+    margin-top: 5%;
+}
+.cursosPag button{
+    margin-top: 20px;
+}
+.cursosPag h2{
+   
+    Max-width: 197px;
+    height: 161px;
+}
+.cursosPag {
+    display: block;
+     margin-left: 0 !important;
+}
+.primeira-divisaoPag{
+    margin: 50px 0 18px 0;
+}
+.segunda-divisaoPag{
+    
+    margin: 50px 0 18px 0;
+}
+.terceira-divisaoPag{
+   
+    margin: 50px 0 18px 0;
+}
+
+.curso-iniciante p{
+    Max-width: 573px !important;
+}
 
 }
 
-@media screen and (max-width: 984px) {
-    .cursos {
-        height: auto;
+@media screen and (max-width:837px) {
+   
+    .cursosPag img{
+        width: 373px;
+        height: 254px;
+        margin-top: 5%;
+        margin-left: 28px;
+    }
+    .cursosPag h2{
+       
+        Max-width: 197px;
+        height: 161px;
+        text-align: center;
+        margin: auto;
+    }
+    .cursosPag {
+        display: block;
+        margin-left: -104px !important;
+        margin-right: 10px;
+    }
+    .primeira-divisaoPag{
+        margin: 50px 0 18px 0;
+    }
+    .segunda-divisaoPag{
+        
+        margin: 50px 0 18px 0;
+    }
+    .terceira-divisaoPag{
+       
+        margin: 50px 0 18px 0;
+    }
+    
+    .curso-iniciante p{
+        Max-width: 573px !important;
+        text-align: center;
+        margin: auto;
+        
+       
+    }
+    .primeira-divisaoPag{
+        display: block;
+    }
+    .segunda-divisaoPag{
+        display: block;
+    }
+    .terceira-divisaoPag{
+        display: block;
     }
 
-    .cursos img {
-        width: 215px;
-        height: 213px;
+    .sombra{
+        width: 90%;
+        height: 5px;
+        left: 82px;
+        top: 834px;
+        background: #C4C4C4;
+        margin-left: auto;
+        }
 
+        .curso-iniciante{
+            display: block !important;
+        }
+        .titulo h3{
+            width: 300px;
+            margin-left: -67px;
+            
+        }
+        .titulo h1{
+            margin-left: -67px;
+            
+        }
+    
     }
 
-    .cursos p {
-        width: 218px;
-        margin-left: 10%;
-    }
-
-    .cursos button {
-        width: 156px;
-        height: 40px;
-        margin-left: 22%;
-    }
-
-    .cursos h2 {
-        width: 266px;
-    }
-
-
-}
-
-@media screen and (max-width:755px) {
-    .cursos {
-        height: 661px;
-    }
-
-    .cursos img {
-        width: 178px;
-        height: 201px;
-        margin-left: -10%;
-
-    }
-
-    .cursos p {
-        width: 108px;
-        margin-left: 10%;
-    }
-
-    .cursos button {
-        width: 100px;
-        height: 51px;
-        margin-left: 14%;
-    }
-
-    .cursos h2 {
-        width: 133px;
-    }
-
-    .terceira-divisao {
-        margin-top: 14%;
-    }
-
-    .cursos button:hover {
-        background-color: var(--cor-btn);
-    }
-
-
-}
-
-@media screen and (max-width:633px) {
-    .cursos {
-        display: grid;
-        height: 1850px;
-    }
-
-    .primeira-divisao {
-        margin-top: 10% !important;
-        text-align: center !important;
-    }
-
-    .cursos div {
-        margin-top: -20px;
-        text-align: center !important;
-    }
-
-    .cursos img {
-        width: 84%;
-        height: 62%;
-        margin-left: 6%;
-    }
-
-    .cursos p {
-        width: 82%;
-
-    }
-
-    .cursos button {
-        width: 213px;
-        height: 51px;
-        margin-left: 0;
-
-    }
-
-    .cursos h2 {
-        width: 100%;
-    }
-
-    .terceira-divisao {
-        margin-top: 14%;
-    }
-
-    .img-dv3 {
-        height: 287px !important;
-    }
-
-}
-
-.cursos button:hover {
-    background-color: #f42c6f;
-}
+    @media screen and (max-width:837px) {
+   
+        .cursosPag img{
+            width: 264px;
+            height: 180px;
+            margin-top: 5%;
+            margin-left: 36px;
+        }
+     
+        
+        }

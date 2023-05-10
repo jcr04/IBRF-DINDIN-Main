@@ -1,4 +1,5 @@
 main {
+  height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,6 +11,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 80vw;
+    
   }
   
   .banner img {
@@ -31,7 +33,10 @@ main {
   }
 
   .row {
-    margin-top: 100px;
+    margin-top: 380px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 
    
@@ -40,7 +45,7 @@ main {
     display: flex;
     flex-direction: column;
     border-color: 5px solid #58555d;
-    
+    gap: 10px;
   }
   
   input, textarea {
@@ -49,11 +54,12 @@ main {
     padding: 0.5rem;
     border-radius: 5px;
     color: #58555d;
+    border: 1px solid #58555d;
     
     
   }
   
-  button {
+  button.button {
     width: 12vw;
     margin: 0.5rem;
     padding: 0.5rem 0;

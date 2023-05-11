@@ -95,6 +95,12 @@
      margin-left: 10%;
 
  }
+ .p-curso{
+    margin: 0 10px 0 10px;
+ }
+ .btn-close{
+    cursor: pointer;
+ }
 
  @media screen and (max-width: 984px) {
      .cursos {

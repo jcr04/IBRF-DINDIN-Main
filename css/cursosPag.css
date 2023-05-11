@@ -183,6 +183,20 @@ font-weight: 700;
    
 }
 
+#link{
+
+    width: 50%;
+    height: 51px;
+    border-radius: 62px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    
+}
+
 
 @media screen and (max-width: 1116px) {
    

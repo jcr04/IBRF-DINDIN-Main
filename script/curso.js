@@ -17,6 +17,4 @@ function Pegacurso(){
     }
     
 }
-
-
 Pegacurso()

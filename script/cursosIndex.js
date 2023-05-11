@@ -18,7 +18,6 @@ document.getElementById("btn-curso1").addEventListener("click",()=>{
     
       window.location.href='./curso.html'+"?id="+3
     
-       
     
   });
   

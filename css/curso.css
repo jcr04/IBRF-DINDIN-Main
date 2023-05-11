@@ -1,75 +1,31 @@
 .bg-cursos {
     background: #f6f6f6;
-    width: 1440px;
-    height: 1235px;
-    position: absolute;
+
     left: 0px;
     top: 659px;
-  }
-  .aula-3 {
-    position: absolute;
-    inset: 0;
-  }
-  .nemo-enim-ipsam-voluptatem-quia-voluptas-sit-aspernatur-aut-odit-aut-fugit-sed-quia-consequuntur-magni-dolores-eos-qui-ratione-voluptatem-sequi-nesciunt-ipsam-voluptatem-quia-voluptas-sit-aspernatur-aut-odit-aut-fugit-sed-quia-consequuntur-magni-dolores-eos-qui-ratione-voluptatem-sequi-nesciunt {
-    color: #000000;
-    text-align: left;
-    font: 300 20px "Ubuntu", sans-serif;
-    position: absolute;
-    left: 750px;
-    top: 1624px;
-    width: 501px;
-    height: 195px;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    flex-direction: column;
   }
-  .aula-32 {
-    color: #ff4081;
-    text-align: left;
-    font: 700 35px "Ubuntu", sans-serif;
-    position: absolute;
-    left: 750px;
-    top: 1558px;
-    width: 512px;
-  }
-  .group-32 {
-    width: 462px;
-    height: 261px;
-    position: static;
-  }
-  .rectangle-20 {
-    border-style: solid;
-    border-color: #8e8e8e;
-    border-width: 3px;
-    width: 462px;
-    height: 261px;
-    position: absolute;
-    left: 212px;
-    top: 1558px;
-  }
-  .play {
-    position: absolute;
-    left: 398px;
-    top: 1644px;
-    overflow: visible;
-  }
+  
   .linha {
     background: #c4c4c4;
     width: 1244px;
     height: 3px;
-    position: absolute;
-    left: 98px;
-    top: 1480px;
+
+margin: auto;
+    width: 75%;
+
+   
   }
   .aula-2 {
-    position: absolute;
+ 
     inset: 0;
   }
   .nemo-enim-ipsam-voluptatem-quia-voluptas-sit-aspernatur-aut-odit-aut-fugit-sed-quia-consequuntur-magni-dolores-eos-qui-ratione-voluptatem-sequi-nesciunt-ipsam-voluptatem-quia-voluptas-sit-aspernatur-aut-odit-aut-fugit-sed-quia-consequuntur-magni-dolores-eos-qui-ratione-voluptatem-sequi-nesciunt2 {
     color: #000000;
     text-align: left;
     font: 300 20px "Ubuntu", sans-serif;
-    position: absolute;
+   
     left: 750px;
     top: 1212px;
     width: 501px;
@@ -82,7 +38,7 @@
     color: #ff4081;
     text-align: left;
     font: 700 35px "Ubuntu", sans-serif;
-    position: absolute;
+    
     left: 750px;
     top: 1146px;
   }
@@ -92,12 +48,12 @@
     border-width: 3px;
     width: 462px;
     height: 261px;
-    position: absolute;
+   
     left: 212px;
     top: 1146px;
   }
   .play2 {
-    position: absolute;
+    
     left: 398px;
     top: 1232px;
     overflow: visible;
@@ -106,66 +62,145 @@
     background: #c4c4c4;
     width: 1244px;
     height: 3px;
-    position: absolute;
+  
     left: 98px;
     top: 1068px;
   }
-  .aula-1 {
-    position: absolute;
-    inset: 0;
+.container-videos{
+  background-color: #F7F7F7;
+}
+  .container-videos h2 {
+    
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 40px;
+padding-bottom: 30px;
+
+color: #FF4081;
+    
   }
-  .nemo-enim-ipsam-voluptatem-quia-voluptas-sit-aspernatur-aut-odit-aut-fugit-sed-quia-consequuntur-magni-dolores-eos-qui-ratione-voluptatem-sequi-nesciunt-ipsam-voluptatem-quia-voluptas-sit-aspernatur-aut-odit-aut-fugit-sed-quia-consequuntur-magni-dolores-eos-qui-ratione-voluptatem-sequi-nesciunt3 {
-    color: #000000;
-    text-align: left;
-    font: 300 20px "Ubuntu", sans-serif;
-    position: absolute;
-    left: 751px;
-    top: 800px;
-    width: 501px;
-    height: 195px;
+  .container-videos p{
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+
+color: #000000;
+  }
+  .sessao1{
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    justify-content: space-evenly;
+    padding-top: 40px;
+padding-bottom: 40px;
+
   }
-  .aula-12 {
-    color: #ff4081;
-    text-align: left;
-    font: 700 35px "Ubuntu", sans-serif;
-    position: absolute;
-    left: 751px;
-    top: 734px;
-    width: 512px;
-  }
-  .group-31 {
-    width: 462px;
-    height: 261px;
-    position: static;
-  }
-  .rectangle-203 {
-    border-style: solid;
-    border-color: #8e8e8e;
-    border-width: 3px;
-    width: 462px;
-    height: 261px;
-    position: absolute;
-    left: 213px;
-    top: 734px;
-  }
-  .play3 {
-    position: absolute;
-    left: 399px;
-    top: 820px;
-    overflow: visible;
+  .sessao-Interna{
+    width: 500px;
   }
   .intro {
-    position: absolute;
-    inset: 0;
+   
+    display: flex;
+    padding-top: 160px;
+    height: 74vh;
+    justify-content: center;
+
   }
+
+.intro img{
+  height: 381px;
+width: 380px;
+left: 751px;
+top: 197px;
+border-radius: 0px;
+
+}
+.curso-h1{
+  height: 126px;
+width: 512px;
+left: 202px;
+top: 210px;
+border-radius: nullpx;
+
+}
+.p-curso {
+  height: 186px;
+width: 461px;
+left: 202px;
+top: 358px;
+border-radius: nullpx;
+margin-top: 20px;
+
+}
+
+.container-curso{
+  display: block;
+    width: 50%;
+}
+.container-videos{
+
+}
+
+
+@media screen and (min-width: 1340px) {
+
+
+  .intro{
+    padding: 10% 15%;
+  }
+
+  
+  }
+.retangulo{
+  box-sizing: border-box;
+width: 462px;
+height: 261px;
+left: 213px;
+top: 734px;
+
+border: 3px solid #8E8E8E;
+}
+.circulo{
+  box-sizing: border-box;
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 188px;
+  top: 750px;
+  border: 1px solid #000000;
+}
+.triangulo{
+box-sizing: border-box;
+width: 56px;
+height: 53px;
+left: 470.39px;
+top: 837.37px;
+border: 1px solid #000000;
+transform: rotate(90deg);
+font-size: 100px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
   .sed-ut-perspiciatis-unde-omnis-iste-natus-error-sit-voluptatem-accusantium-doloremque-laudantium-totam-rem-aperiam-eaque-ipsa-quae-ab-illo-inventore-veritatis-et-quasi-architecto-beatae-vitae-dicta-sunt-explicabo-nemo-enim-ipsam-voluptatem-quia-voluptas-sit-aspernatur-aut-odit-aut-fugit-sed-quia-consequuntur-magni-dolores-eos-qui-ratione-voluptatem-sequi-nesciunt {
     color: #000000;
     text-align: left;
     font: 300 20px "Ubuntu", sans-serif;
-    position: absolute;
+   
     left: 202px;
     top: 358px;
     width: 461px;
@@ -178,14 +213,157 @@
     color: #ff4081;
     text-align: left;
     font: 700 55px "Ubuntu", sans-serif;
-    position: absolute;
     left: 202px;
     top: 210px;
     width: 512px;
   }
   .img-dv1 {
-    position: absolute;
     left: 751px;
     top: 197px;
     overflow: visible;
   }
+  
+@media screen and (max-width: 886px) {
+
+
+ .intro img{
+  height: 299px;
+  width: 323px;
+  margin-top: 76px;
+ }
+ .investimento-para-iniciantes {
+  color: #ff4081;
+  text-align: left;
+  font: 700 55px "Ubuntu", sans-serif;
+  left: 202px;
+  top: 210px;
+  width: 393px !important;
+}
+.sed-ut-perspiciatis-unde-omnis-iste-natus-error-sit-voluptatem-accusantium-doloremque-laudantium-totam-rem-aperiam-eaque-ipsa-quae-ab-illo-inventore-veritatis-et-quasi-architecto-beatae-vitae-dicta-sunt-explicabo-nemo-enim-ipsam-voluptatem-quia-voluptas-sit-aspernatur-aut-odit-aut-fugit-sed-quia-consequuntur-magni-dolores-eos-qui-ratione-voluptatem-sequi-nesciunt {
+  color: #000000;
+  text-align: left;
+  font: 300 20px "Ubuntu", sans-serif;
+  left: 202px;
+  top: 358px;
+  width: 285px;
+  height: 186px;
+  display: flex;
+  align-items: center;
+  margin-top: 76px;
+}
+
+.sessao1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.retangulo{
+  margin: auto;
+  margin-bottom: 10px !important;
+}
+.sessao-Interna {
+  width: 500px;
+  margin: auto;
+  margin-bottom: 10px !important;
+}
+  }
+
+  @media screen and (max-width: 573px) {
+
+    .intro {
+      display: flex;
+      flex-direction: column-reverse;
+      padding-top: 160px;
+      height: 74vh;
+      justify-content: center;
+  }
+  .retangulo {
+    box-sizing: border-box;
+    width: 325px;
+    height: 230px;
+    left: 213px;
+    top: 734px;
+    border: 3px solid #8E8E8E;
+}
+.container-videos{
+  margin-top:200px;
+}
+.sessao-Interna {
+  width: 381px;
+  margin: auto;
+  margin-bottom: 10px !important;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-top: 0px;
+  height: 99vh;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.p-curso{
+  margin-bottom: 20px;
+  text-align: center;
+  width: 368px;
+}
+
+.btn-c {
+  flex-wrap: wrap;
+  padding: 5px;
+  width: 350px;
+  height: 150px;
+  position: static;
+  display: flex;
+  margin-right: 0px;
+  align-items: center;
+  margin: auto;
+  display: flex;
+    flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  background-color: #2e948a;
+  padding: 20px;
+  align-items: center;
+  font-size: 20px;
+  flex-direction: column;
+}
+.p-curso {
+  
+  text-decoration: none;
+  margin-right: 115px;
+  align-items: center;
+  padding: 0px;
+  width: 251px !important;
+  margin-top: 85px;
+  
+
+}
+.btn-curso-footer{
+margin-bottom: 8px;
+}
+.investimento-para-iniciantes{
+  
+  width: 240px !important;
+    margin-left: -30px;
+    font-size: 45px;
+}
+.intro img {
+  height: 299px;
+  width: 323px;
+  margin-top: 968PX;
+}
+
+.p-curso2{
+  margin-bottom: 900px !important;
+}
+     }

@@ -16,8 +16,7 @@ Laura Carvalho De Barros.
 Antônio Otávio,
 Edison de F. Ventura Junior,
 Judriani de Brito,
-João Mendonça e
-Majida Ali Abou Nouh.
+João Mendonça.
 
 
 ## Orientação

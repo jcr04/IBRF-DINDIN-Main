@@ -17,6 +17,9 @@ margin: auto;
 
    
   }
+  .ul-curso a{
+    text-decoration: auto;
+  }
   .aula-2 {
  
     inset: 0;
@@ -108,7 +111,7 @@ padding-bottom: 40px;
     display: flex;
     padding-top: 160px;
     height: 74vh;
-    justify-content: center;
+    justify-content: flex-start;
 
   }
 
@@ -118,6 +121,7 @@ width: 380px;
 left: 751px;
 top: 197px;
 border-radius: 0px;
+margin-left: 10%;
 
 }
 .curso-h1{
@@ -151,7 +155,7 @@ margin-top: 20px;
 
 
   .intro{
-    padding: 10% 15%;
+    padding: 10% 13%;
   }
 
   
@@ -291,6 +295,10 @@ font-size: 100px;
 .container-videos{
   margin-top:200px;
 }
+.container-curso {
+  display: block;
+  width: 100%;
+}
 .sessao-Interna {
   width: 381px;
   margin: auto;
@@ -352,7 +360,7 @@ font-size: 100px;
 margin-bottom: 8px;
 }
 .investimento-para-iniciantes{
-  
+  display: contents;
   width: 240px !important;
     margin-left: -30px;
     font-size: 45px;
@@ -365,5 +373,26 @@ margin-bottom: 8px;
 
 .p-curso2{
   margin-bottom: 900px !important;
+  
+    margin: auto;
+    margin-top: 100px;
+
 }
+     }
+     
+  @media screen and (max-width: 331px) {
+
+    .intro {
+      display: flex;
+      flex-direction: column-reverse;
+      padding-top: 160px;
+      height: 74vh;
+      justify-content: center;
+  }
+  .p-curso2{
+    
+    margin-left: -21px !important;
+      
+  
+  }
      }

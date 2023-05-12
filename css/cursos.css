@@ -10,7 +10,13 @@
      justify-content: space-around;
 
  }
-
+ .ul-cursos a{
+    text-decoration: auto;
+  }
+  .cursosPag {
+    display: block;
+    margin-left: 0 !important; 
+}
  .primeira-divisao {
 
      height: 504px;
@@ -95,8 +101,8 @@
      margin-left: 10%;
 
  }
- .p-curso{
-    margin: 0 10px 0 10px;
+ #p-curso{   
+        padding: 0px 20px 3px 20px;
  }
  .btn-close{
     cursor: pointer;

@@ -1,181 +1,280 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>DinDin</title> 
-
-  
-  <link rel="stylesheet" href="./css/base.css">
-  <link rel="stylesheet" href="./css/header.css">
-  <link rel="stylesheet" href="./css/cursos.css">
-  <link rel="stylesheet" href="./css/footer.css">
-  <link rel="stylesheet" href="./css/banner.css">
-  <link rel="stylesheet" href="./css/depo.css">
-  <!-- <link rel="stylesheet" href="./css/index.css"> -->
-  <link rel="shortcut icon" href="./img/logo-icon.png" type="image/x-icon">
-  <!-- Adicione os estilos do Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <!-- Adicione o jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <!-- Adicione o JavaScript do Bootstrap -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</head>
-<body>
-  <header class="content">
-    <div class="logo">
-      <a href="index.html" target="_self" rel="internal"><img src="./img/logo-header.png" alt="Logo Dindin"></a>
-    </div>
-    <nav>
-      <ul class="list-menu">
-        <li><a href="./cursos.html">cursos</a></li>
-        <li><a href="./blog.html">blog</a></li>
-        <li><a href="./contato.html">contato</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <div class="banner col-12 row-1">
-      <div class="row" >
-        <div class="col-12 col-md-6 order-md-2 div1">
-          <img src="img/ilustra-banner.png" alt="" class="img-fluid ">
-        </div>
-        <div class="col-12 col-md-6 order-md-1 div2">
-          <div class="v1_88 div2">
-            <div class="EducaçãoFinanceira" >
-              <p>Educação Financeira <br/>é tudo de bom</p>
-            </div>
-            <div class="Vemcomigo" >
-              <p  >Vem comigo que te mostro <br/>por onde começar</p>
-            </div>
-            <div class="v1_91">
-              <div class="v1_92">
-                <div class="querosaber">
-                  <button>Quero saber mais</button>
+    <title>DinDin</title>
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/cursos.css" />
+    <link rel="stylesheet" href="./css/blog4.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/banner.css" />
+    <link rel="stylesheet" href="./css/depo.css" />
+    <!-- <link rel="stylesheet" href="./css/index.css"> -->
+    <link rel="shortcut icon" href="./img/logo-icon.png" type="image/x-icon" />
+    <!-- Adicione os estilos do Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Adicione o jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Adicione o JavaScript do Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <header class="content">
+      <div class="logo">
+        <a href="index.html" target="_self" rel="internal"
+          ><img src="./img/logo-header.png" alt="Logo Dindin"
+        /></a>
+      </div>
+      <nav>
+        <ul class="list-menu">
+          <li><a href="./cursos.html">cursos</a></li>
+          <li><a href="./blog.html">blog</a></li>
+          <li><a href="./contato.html">contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="banner col-12 row-1">
+        <div class="row">
+          <div class="col-12 col-md-6 order-md-2 div1">
+            <img src="img/ilustra-banner.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-12 col-md-6 order-md-1 div2">
+            <div class="v1_88 div2">
+              <div class="EducaçãoFinanceira">
+                <p>Educação Financeira <br />é tudo de bom</p>
+              </div>
+              <div class="Vemcomigo">
+                <p>Vem comigo que te mostro <br />por onde começar</p>
+              </div>
+              <div class="v1_91">
+                <div class="v1_92">
+                  <div class="querosaber">
+                    <button>Quero saber mais</button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
       <div class="cursos">
-          <div class="primeira-divisao">
-            <img class="img-dv1" src="./IMG/ilustra-poupando.png" alt="ilustração poupando investimentos">
-            <h2>Investimento para iniciantes</h2>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit ese cillum dolore eu fugiat nulla pariatur.</p>
-            <button id="btn-curso1" type="button"  data-toggle="tooltip" data-placement="bottom" title="Mais detalhes" class="btn-cursos">Começar agora</button>
-          </div>
-          <div class="segunda-divisao">
-            <img class="img-dv2" src="./IMG/ilustra-investimento.png" alt="ilustração poupando investimentos">
-            <h2>Poupando e Rendendo</h2>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <button id="btn-curso2" type="button"  data-toggle="tooltip" data-placement="bottom" title="Mais detalhes" class="btn-cursos">Começar agora</button> 
-          </div>
-          <div class="terceira-divisao">
-            <img class="img-dv3" src="./img/ilustra-independencia.png" alt="ilustração poupando investimentos">
-            <h2>Independência Financeira</h2>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <button id="btn-curso3" type="button"  data-toggle="tooltip" data-placement="bottom" title="Mais detalhes" class="btn-cursos">Começar agora</button>
-          </div>
+        <div class="primeira-divisao">
+          <img
+            class="img-dv1"
+            src="./IMG/ilustra-poupando.png"
+            alt="ilustração poupando investimentos"
+          />
+          <h2>Investimento para iniciantes</h2>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit ese cillum
+            dolore eu fugiat nulla pariatur.
+          </p>
+          <button
+            id="btn-curso1"
+            type="button"
+            data-toggle="tooltip"
+            data-placement="bottom"
+            title="Mais detalhes"
+            class="btn-cursos"
+          >
+            Começar agora
+          </button>
+        </div>
+        <div class="segunda-divisao">
+          <img
+            class="img-dv2"
+            src="./IMG/ilustra-investimento.png"
+            alt="ilustração poupando investimentos"
+          />
+          <h2>Poupando e Rendendo</h2>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur.
+          </p>
+          <button
+            id="btn-curso2"
+            type="button"
+            data-toggle="tooltip"
+            data-placement="bottom"
+            title="Mais detalhes"
+            class="btn-cursos"
+          >
+            Começar agora
+          </button>
+        </div>
+        <div class="terceira-divisao">
+          <img
+            class="img-dv3"
+            src="./img/ilustra-independencia.png"
+            alt="ilustração poupando investimentos"
+          />
+          <h2>Independência Financeira</h2>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur.
+          </p>
+          <button
+            id="btn-curso3"
+            type="button"
+            data-toggle="tooltip"
+            data-placement="bottom"
+            title="Mais detalhes"
+            class="btn-cursos"
+          >
+            Começar agora
+          </button>
+        </div>
       </div>
-      
-      <div class="depoimentos">
+      <!-- <div class="depoimentos">
         <div class="o-que-falam-sobre-n-s">O QUE FALAM SOBRE NÓS</div>
-      
+
         <div class="depo-4">
           <div class="depo">
-            <div class="sed-ut-perspiciatis-unde-omnis-iste-natus-error-sit-voluptatem-accusantium-doloremque-laudantium-totam-rem-aperiam">
-              ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”
+            <div
+              class="sed-ut-perspiciatis-unde-omnis-iste-natus-error-sit-voluptatem-accusantium-doloremque-laudantium-totam-rem-aperiam"
+            >
+              ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam.”
             </div>
-      
+
             <div class="janes-joplin-29">Janes Joplin, 29</div>
           </div>
-      
+
           <div class="jane">
             <div class="rectangle-14"></div>
             <img class="image-8" src="img\icon-jane.png" />
           </div>
         </div>
-      
+
         <div class="depo-3">
           <div class="group-23">
-            <div class="sed-ut-perspiciatis-unde-omnis-iste-natus-error-sit-voluptatem-accusantium-doloremque-laudantium-totam-rem-aperiam2">
-              ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”
+            <div
+              class="sed-ut-perspiciatis-unde-omnis-iste-natus-error-sit-voluptatem-accusantium-doloremque-laudantium-totam-rem-aperiam2"
+            >
+              ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam.”
             </div>
-      
+
             <div class="whoopi-goldberg-37">Whoopi Goldberg, 37</div>
           </div>
-      
+
           <div class="whoopi">
             <div class="group-25">
               <div class="rectangle-13"></div>
             </div>
-      
+
             <img class="image-7" src="img\icon-whoopi.png" />
           </div>
         </div>
-      
+
         <div class="depo-2">
           <div class="group-20">
-            <div class="sed-ut-perspiciatis-unde-omnis-iste-natus-error-sit-voluptatem-accusantium-doloremque-laudantium-totam-rem-aperiam3">
-              ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”
+            <div
+              class="sed-ut-perspiciatis-unde-omnis-iste-natus-error-sit-voluptatem-accusantium-doloremque-laudantium-totam-rem-aperiam3"
+            >
+              ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam.”
             </div>
-      
+
             <div class="jaden-smith-23">Jaden Smith, 23</div>
           </div>
-      
+
           <div class="group-21">
             <div class="rectangle-142"></div>
-      
+
             <img class="image-5" src="img\icon-jaden.png" />
           </div>
         </div>
-      
+
         <div class="depo-1">
           <div class="group-19">
-            <div class="sed-ut-perspiciatis-unde-omnis-iste-natus-error-sit-voluptatem-accusantium-doloremque-laudantium-totam-rem-aperiam4">
-              ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”
+            <div
+              class="sed-ut-perspiciatis-unde-omnis-iste-natus-error-sit-voluptatem-accusantium-doloremque-laudantium-totam-rem-aperiam4"
+            >
+              ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam.”
             </div>
-      
+
             <div class="wally-25">Wally, 25</div>
           </div>
-      
+
           <div class="group-22">
             <div class="rectangle-132"></div>
-      
+
             <img class="image-6" src="img\icon-wally.png" />
           </div>
         </div>
-      </div>
-      <div class="blog">
-      
-      </div>
-      </main>
-      <footer class="footer">
-        <a href="./index.html">
-          <div class="coluna-img">
-            <img src="./img/logo-footer.png" alt="DinDin logo">
+      </div> -->
+      <!--BLOG JUDRIANI DE BRITO-->
+
+      <div class="blog-posts">
+        <h2 class="titulo-principal">MAIS CONTEÚDO PARA VOCÊ</h2>
+        <section class="cursos-blog">
+          <div class="post-item">
+            <img id="img1" src="./img/blog.png" alt="post" />
+
+            <h2>Itaque earum rerum</h2>
+            <p>
+              hic tenetur a saaut perferendis doloribus asperiores repellat. hic
+              tenetur a sapialias consequatur aut perferendis doloribus dis
+              doloribus asperiores repellat. hic tenetur a sapialias consequatur
+              aut perferendis doloribus
+            </p>
           </div>
-        </a>
-        <div class="coluna-cursos">
-          <nav class="menu-list-footer">
-            <ul>
-              <li class="menu-footer-1"><a href="/cursos.html">cursos</a></li>
-              <li class="menu-footer-2"><a href="/blog.html">blog</a></li>
-              <li class="menu-footer-3"><a href="/contato.html">contato</a></li>
-            </ul>
-          </nav>
+
+          <div class="post-item">
+            <img id="img1" src="./img/blog.png" alt="post" />
+
+            <h2>Itaque earum rerum</h2>
+            <p>
+              hic tenetur a sapialias consequatur aut perferendis doloribus
+              asperiores repellat. hic tenetur a sapialias consequatur aut
+              perferendis doloribus
+            </p>
+          </div>
+
+          <div class="post-item">
+            <img id="img1" src="./img/blog.png" alt="post" />
+            <h2>Itaque earum rerum</h2>
+            <p>
+              hic tenetur a saaut perferendis doloribus asperiores repellat.
+            </p>
+          </div>
+        </section>
+        <button class="btn-post">
+          <a class="btn-post-buttom" href="#l">ver todos os posts</a>
+        </button>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <a href="./index.html">
+        <div class="coluna-img">
+          <img src="./img/logo-footer.png" alt="DinDin logo" />
         </div>
-        <div class="coluna-btn">
-          <button type="button" class="btn-footer-1">quero ser professor</button>
-          <button type="button" class="btn-footer-2">aqui tem outro link</button>
-        </div>
-      </footer>
-      <script src="./script/cursosIndex.js"></script>
-      </body>
-      
-      </html>
+      </a>
+      <div class="coluna-cursos">
+        <nav class="menu-list-footer">
+          <ul>
+            <li class="menu-footer-1"><a href="/cursos.html">cursos</a></li>
+            <li class="menu-footer-2"><a href="/blog.html">blog</a></li>
+            <li class="menu-footer-3"><a href="/contato.html">contato</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="coluna-btn">
+        <button type="button" class="btn-footer-1">quero ser professor</button>
+        <button type="button" class="btn-footer-2">aqui tem outro link</button>
+      </div>
+    </footer>
+    <script src="./script/cursosIndex.js"></script>
+  </body>
+</html>

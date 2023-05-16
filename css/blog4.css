@@ -1,0 +1,168 @@
+.blog-posts {
+    padding-top: 1px;
+    padding-bottom: 30px;
+    background-color: #f7f7f7;
+    width: 100vw;
+  }
+  .titulo-principal {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+    color: #009688;
+    margin-top: 91px;
+    margin-left: 130px;
+    margin-bottom: 73px;
+  }
+  
+  .cursos-blog {
+    display: flex;
+    margin-left: 128px;
+    margin-right: 137px;
+    justify-content: space-between;
+  }
+  
+  .post-item {
+    gap: 109px;
+  }
+  
+  .post-item h2 {
+    width: 280px;
+  
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 31px;
+    color: #009688;
+  }
+  
+  .post-item p {
+    width: 280px;  
+    font-style: normal;
+   
+  
+    text-align: justify;
+    width: 293px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+   
+    color: #000000;
+    margin-top: 16px;
+    margin-bottom: 2rem;
+  }
+  
+  #img1 {
+    width: 293px;
+    height: 193px;
+    left: 128px;
+  }
+  
+  .btn-post a {
+    color: #ff4081;
+  }
+  
+ 
+  
+#maisPost-p {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    height: 51px;
+    border: 2px solid #ff4081;
+    border-radius: 62px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   align-items: center;
+    margin-left: 500px;
+    margin-right: 582px;
+    min-width: 260px;
+    color: #ff4081;
+    background-color: #f7f7f7;
+  
+    
+  }
+  
+  #maisPost-p:hover {
+    text-decoration: none;
+    color: #FF4081;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .blog-posts {
+      justify-content: center;
+      display: flex;
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .titulo-principal {
+      margin-top: 60px;
+      margin-left: 30px;
+      margin-bottom: 30px;
+      font-size: 28px;
+      line-height: 32px;
+    }
+  
+    .cursos-blog {
+      display: block;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .post-item {
+      margin-bottom: 60px;
+    }
+  
+    .maisPost {
+      margin: 20px 30px;
+      width: 70%;
+      font-size: 22px;
+      line-height: 26px;
+      height: auto;
+      padding: 12px 20px;
+      text-align: center;
+      min-width: 260px;
+      border: none;
+    }
+  
+    
+  
+#maisPost-p {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    height: 51px;
+    border: 2px solid #ff4081;
+    border-radius: 62px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 582px;
+    min-width: 260px;
+    color: #ff4081;
+    background-color: #f7f7f7;
+    justify-content: center;
+    
+  }
+  
+  #maisPost-p:hover {
+   align-items: center;
+    color: #FF4081;
+   
+  }
+}

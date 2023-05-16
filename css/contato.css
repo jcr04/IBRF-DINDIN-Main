@@ -1,125 +1,159 @@
 main {
   height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 15px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+}
 
-  .banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.row {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  padding: auto;
+  width: 100vw;
+  height: 80vh;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.banner img {
+  width: 35vw;
+}
+
+.contato.col-12.col-md-6.order-md-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-contato {
+  color: #ff4081;
+  font-weight: 700;
+  font-size: 5rem;
+  margin-bottom: 4rem;
+}
+
+.contato-v1 {
+  margin-left: 50rem;
+  margin-right: 25rem;
+}
+
+  
+form {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  border-color: 5px solid #58555d;
+  gap: 2.5rem;
+}
+
+input, textarea {
+  font-size: 15px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: #58555d;
+  border: 1px solid #58555d;
+}
+
+button.button {
+  width: 12vw;
+  margin: 0.5rem;
+  padding: 0.5rem 0;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  background-color: #ff4081;
+  font-weight: 800;
+}
+
+textarea::placeholder, input::placeholder {
+  color: #58555d;
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .banner.col-12.row-1 {
     width: 100vw;
-    
-  }
- 
-  .banner img {
-    width: 35vw;
+    margin: 0;
+    padding: 0;
   }
 
-   .contato p {
-    font-size: 6rem;
+  .logo-contato {
+    width: 80%;
+    height: 80%;
+  }
+
+  .titulo-contato {
     color: #ff4081;
     font-weight: 700;
-    margin: 1rem 0;
+    font-size: 5rem;
   }
 
-  .contato.v1_88 {
-    padding: 50px;
-    margin-left: 150px;
-    margin-right: 100px;
-    
+  .contato-v1 {
+    padding: 0;
+    margin: auto;
   }
 
   .row {
-    margin-top: 35vw;
+    margin-top: 10rem;
+  }
+
+  form {
+    width: 70vw;
+  }
+
+  button.button {
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .banner.col-12.row-1 {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contato {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
   }
 
-   
-  form {
-    width: 40vw;
+  .titulo-contato {
+    color: #ff4081;
+    font-weight: 700;
+    font-size: 5rem;
+  }
+
+  .contato-v1 {
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .row {
+    margin-top: 100px;
     display: flex;
-    flex-direction: column;
-    border-color: 5px solid #58555d;
-    gap: 10px;
   }
-  
-  input, textarea {
-    font-size: 15px;
-    margin: 0.5rem;
-    padding: 0.5rem;
-    border-radius: 5px;
-    color: #58555d;
-    border: 1px solid #58555d;
-    
-    
+
+  .logo-contato {
+    width: 80%;
+    height: 80%;
   }
-  
+
+  form {
+    width: 70vw;
+  }
+
   button.button {
-    width: 12vw;
-    margin: 0.5rem;
-    padding: 0.5rem 0;
-    border-radius: 50px;
-    border: none;
-    color: #fff;
-    background-color: #ff4081;
-    font-weight: 800;
+    width: 30vw;
   }
-
-  textarea::placeholder, input::placeholder {
-    color: #58555d;
-  }
-
-  @media screen and (min-width: 768px) {
-    .banner {
-      width: 60vw;
-    }
-  
-    .contato.v1_88 {
-      padding: 90px;
-      margin-left: 150px;
-      margin-right: 100px;
-    }
-  
-    .row {
-      margin-top: 200px;
-    }
-  
-    form {
-      width: 30vw;
-    }
-  
-    button.button {
-      width: 8vw;
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .banner {
-      width: 90vw;
-    }
-  
-    .contato.v1_88 {
-      padding: 20px;
-      margin-left: 50px;
-      margin-right: 50px;
-    }
-  
-    .row {
-      margin-top: 100px;
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    form {
-      width: 70vw;
-    }
-  
-    button.button {
-      width: 30vw;
-    }
-  }
+}

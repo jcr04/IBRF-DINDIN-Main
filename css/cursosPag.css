@@ -10,6 +10,9 @@
 .primeira-divisaoPag{
     display: inline-flex;
     text-align: center;
+    width: 100%;
+    padding-left: 4%;
+
     
 }
 
@@ -101,11 +104,15 @@ background: #C4C4C4;
     display: inline-flex;
     text-align: center;
     margin: 50px 0 100px 0;
+    width: 100%;
+    padding-left: 4%;
 }
 .terceira-divisaoPag{
     display: inline-flex;
     text-align: center;
     margin: 50px 0 100px 0;
+    width: 100%;
+    padding-left: 4%;
 }
 .terceira-divisaoPag img{
     left: 8.89%;

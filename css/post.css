@@ -1,7 +1,3 @@
-* {
-    font-family: 'Ubuntu', sans-serif;
-}
-
 main {
     height: 100%;
 }
@@ -18,7 +14,7 @@ main {
     text-align: center;
     color: #ff4081;
     font-weight: 500;
-    font-size: 35px;
+    font-size: 6rem;
     letter-spacing: -1px;
 }
 
@@ -26,45 +22,55 @@ main {
     align-items: center;
     justify-content: center;
     width: 100%;
+    max-width: 1033px;
+}
+
+.img-post2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .primeiro-p {
     margin-top: 5.5rem;
     color: #000000;
-    font-size: 12px;
+    font-size: 2.2rem;
     margin-bottom: 5.5rem;
+    text-align: justify;
 }
 
 .titulo-1 {
     color: #419488;
     font-weight: 300;
-    font-size: 26px;
+    font-size: 4rem;
 }
 
 .segundo-p {
     margin-top: 1.5rem;
     color: #000000;
-    font-size: 12px;
+    font-size: 2.2rem;
     margin-bottom: 5.5rem;
+    text-align: justify;
 }
 
 .titulo-2 {
     color: #419488;
     font-weight: 300;
-    font-size: 26px;
+    font-size: 4rem;
 }
 
 .terceiro-p {
     margin-top: 1.5rem;
     color: #000000;
-    font-size: 12px;
+    font-size: 2.2rem;
     margin-bottom: 5.5rem;
+    text-align: justify;
 }
 
 .titulo-3 {
     color: #ff4081;
     font-weight: 500;
-    font-size: 35px;
+    font-size: 6rem;
     background-color: #F6F6F6;
     display: flex;
     justify-content: center;

@@ -23,7 +23,7 @@
 <body>
   <header class="content">
     <div class="logo">
-      <img src="./img/logo-header.png" alt="Logo Dindin">
+      <a href="index.html" target="_self" rel="internal"><img src="./img/logo-header.png" alt="Logo Dindin"></a>
     </div> 
     <nav>
       <ul class="list-menu">
@@ -36,7 +36,7 @@
   <main>
     <section class="container-post">
       <h2 class="frase-up-img">On the other hand, we denounce</h2>
-      <img class="img-post" width="1032" height="465" src="./img/post.jpg" alt="post">
+      <div class="img-post2"><img class="img-post" src="./img/post.jpg" alt="post"></div>
 
       <p class="primeiro-p">
           On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.
@@ -64,24 +64,25 @@
     <div class="titulo-3">
       <p>Conheça nossos cursos</p>
     </div>
+    
   <div class="cursos">
     <div class="primeira-divisao">
       <img class="img-dv1" src="./IMG/ilustra-poupando.png" alt="ilustração poupando investimentos">
       <h2>Investimento para iniciantes</h2>
       <p> Duis aute irure dolor in reprehenderit in voluptate velit ese cillum dolore eu fugiat nulla pariatur.</p>
-      <button type="button"  data-toggle="tooltip" data-placement="bottom" title="Mais detalhes" class="btn-cursos">Começar agora</button>
+      <button id="btn-curso1" type="button"  data-toggle="tooltip" data-placement="bottom" title="Mais detalhes" class="btn-cursos">Começar agora</button>
     </div>
     <div class="segunda-divisao">
       <img class="img-dv2" src="./IMG/ilustra-investimento.png" alt="ilustração poupando investimentos">
       <h2>Poupando e Rendendo</h2>
       <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-      <button type="button"  data-toggle="tooltip" data-placement="bottom" title="Mais detalhes" class="btn-cursos">Começar agora</button> 
+      <button id="btn-curso2" type="button"  data-toggle="tooltip" data-placement="bottom" title="Mais detalhes" class="btn-cursos">Começar agora</button> 
     </div>
     <div class="terceira-divisao">
       <img class="img-dv3" src="./img/ilustra-independencia.png" alt="ilustração poupando investimentos">
       <h2>Independência Financeira</h2>
       <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-      <button type="button"  data-toggle="tooltip" data-placement="bottom" title="Mais detalhes" class="btn-cursos">Começar agora</button>
+      <button id="btn-curso3" type="button"  data-toggle="tooltip" data-placement="bottom" title="Mais detalhes" class="btn-cursos">Começar agora</button>
     </div>
 </div>  
   </main>
@@ -94,15 +95,15 @@
     <div class="coluna-cursos">
       <nav class="menu-list-footer">
         <ul>
-          <li class="menu-footer-1"><a href="/cursos.html">cursos</a></li>
-          <li class="menu-footer-2"><a href="/blog.html">blog</a></li>
-          <li class="menu-footer-3"><a href="/contato.html">contato</a></li>
+          <li class="menu-footer-1"><a href="curso.html">cursos</a></li>
+          <li class="menu-footer-2"><a href="blog.html">blog</a></li>
+          <li class="menu-footer-3"><a href="contato.html">contato</a></li>
         </ul>
       </nav>
     </div>
     <div class="coluna-btn">
-      <button type="button" class="btn-footer-1">quero ser professor</button>
-      <button type="button" class="btn-footer-2">aqui tem outro link</button>
+      <button type="button" class="btn-footer-1" title="Mais detalhes">quero ser professor</button>
+      <button type="button" class="btn-footer-2" title="Mais detalhes">aqui tem outro link</button>
     </div>
   </footer>
   <script src="./script/cursosIndex.js"></script>

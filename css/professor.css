@@ -1,0 +1,94 @@
+:root {
+    --cor-btn: #FF4081;
+}
+*{
+    font-family: 'Ubuntu';
+}
+
+
+
+
+.container-professor{
+    width: 100%;
+    height: 100vh; 
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+}
+.crud{
+    background-color: #E5E5E5;
+    width: 50%;
+    height: 60vh;
+    margin: auto;
+    border-radius: 5%;
+    margin-top: 5px;
+}
+.title-prof{
+    margin-top: 100px !important;
+    margin: auto;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: var(--cor-btn);
+   
+}
+.form-prof{
+    display: flex;
+    flex-direction: column;
+    margin-top:85px;
+    font-style: normal;
+    margin-bottom: 10px !important;
+    font-size: 18px;
+    line-height: 19px;
+    
+
+}
+.form-prof input{
+   width: 50%;
+   margin: auto;
+   color:  #09463d;
+   border: 1px solid #353c3b;
+}
+.form-prof select{
+    width: 50%;
+    margin: auto;
+    margin-top: 7px;
+    height: auto;
+    color:  #09463d;
+    border: 1px solid #353c3b;
+ }
+.form-prof label{
+    width: 50%;
+    margin: auto;
+    color:  #09463d;
+ }
+ .form-prof button {
+    margin: 5px auto auto;
+    width: 110px;
+    height: 35px;
+    background-color: var(--cor-btn);
+    border-radius: 62px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.form-prof button:hover{
+        border:1px solid #FF4081;
+        background-color: #FFFFFF;
+        color: #FF4081;
+}
+
+#msg{
+    color: #ea4802;
+    font-size: 13px;
+    margin-left: 25%;
+}
+#enviado{
+    font-size: 15px;
+    margin-left: 26%;
+}

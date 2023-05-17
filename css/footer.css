@@ -29,7 +29,6 @@
 } 
 
 .coluna-cursos {
-  
   text-decoration: none;
   margin-right: 115px;
   align-items: center;
@@ -45,7 +44,8 @@
 
 .menu-list-footer li a:hover {
   text-decoration: none;
-  color: #ff4081;
+  background-color: #8cc9b0f7;
+  border-radius: 5px;
 }
 
 .menu-list-footer li {
@@ -90,14 +90,29 @@
   border-radius: 62px;
 }
 
+.btn-footer-2 a {
+  color: white;
+  box-sizing: border-box;
+  font-size: 20px;
+  width: 350px;
+  height: 55px;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .btn-footer-1:focus, .btn-footer-2:focus {
   outline: none;
   border: 1px solid #ff4081;
 }
 
+.btn-footer-2 a:hover {
+  text-decoration: none;
+  color: white;
+}
+
 .btn-footer-1:hover, .btn-footer-2:hover {
   background-color: #8cc9b0f7;
-  color: #ff4081;
+  text-decoration: none;
 }
 
 

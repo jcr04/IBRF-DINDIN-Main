@@ -72,6 +72,12 @@ button.button {
   font-weight: 800;
 }
 
+button.button:hover {
+  color: #ff4081;
+  background-color: #fff;
+  border: 1px solid #ff4081;
+}
+
 textarea::placeholder, input::placeholder {
   color: #58555d;
 }

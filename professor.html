@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>DinDin</title>
+
+
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/cursos.css">
+  <link rel="stylesheet" href="./css/blog4.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/banner.css">
+  <link rel="stylesheet" href="./css/depo.css">
+  <link rel="stylesheet" href="./css/professor.css">
+  <!-- <link rel="stylesheet" href="./css/index.css"> -->
+  <link rel="shortcut icon" href="./img/logo-icon.png" type="image/x-icon">
+  <!-- Adicione os estilos do Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Adicione o jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Adicione o JavaScript do Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <header class="content">
+    <div class="logo">
+      <a href="index.html" target="_self" rel="internal"><img src="./img/logo-header.png" alt="Logo Dindin"></a>
+    </div>
+    <nav>
+      <ul class="list-menu">
+        <li><a href="./cursos.html">cursos</a></li>
+        <li><a href="./blog.html">blog</a></li>
+        <li><a href="./contato.html">contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+   <section class="container-professor">
+    <h1 class="title-prof">Digite seus dados</h1>
+    <span id="enviado"></span>
+        <div class="crud">
+          <form method="POST" class="form-prof" id="form-prof">
+            <label for="nome" class="coluna-prof">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+        
+            <label for="sobrenome" >Sobrenome:</label>
+            <input type="text" id="sobrenome" name="sobrenome" class="coluna-prof">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="data-nascimento">Data de Nascimento:</label>
+            <input type="date" id="data-nascimento" name="data-nascimento">
+        
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco">
+
+            
+                 <label for="cep">Cep:</label> 
+                 <input type="text" id="cep" name="cep">
+                 <span id="msg"></span>
+
+                 <label for="cidade">Cidade:</label>
+                 <input type="text" id="cidade" name="cidade">
+
+                 <label for="estado">Estado:</label>
+                 <input type="text" id="estado" name="estado">
+
+                 <select name="profissao" id="profissao">
+                  <option value="">Selecione uma profissão</option>
+                  <option value="engenheiro">Engenheiro</option>
+                  <option value="advogado">Advogado</option>
+                  <option value="médico">Médico</option>
+                  <option value="professor">Professor</option>
+                  <option value="designer">Designer</option>
+                  <option value="programador">Programador</option>
+                  <option value="enfermeiro">Enfermeiro</option>
+                </select>
+        
+            <button type="button" class="button-prof" id="button-prof" >Enviar</button>
+          </form>
+        </div>
+   </section>
+  </main>
+  <footer class="footer">
+    <a href="./index.html">
+      <div class="coluna-img">
+        <img src="./img/logo-footer.png" alt="DinDin logo">
+      </div>
+    </a>
+    <div class="coluna-cursos">
+      <nav class="menu-list-footer">
+        <ul>
+          <li class="menu-footer-1"><a href="./cursos.html">cursos</a></li>
+          <li class="menu-footer-2"><a href="./blog.html">blog</a></li>
+          <li class="menu-footer-3"><a href="./contato.html">contato</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="coluna-btn">
+      <button type="button" class="btn-footer-1">quero ser professor</button>
+      <button type="button" class="btn-footer-2">aqui tem outro link</button>
+    </div>
+  </footer>
+  <script src="./script/professor.js"></script>
+</body>
+
+</html>

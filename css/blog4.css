@@ -95,11 +95,11 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1167px) {
   .blog-posts {
     justify-content: center;
     display: flex;
-    height: auto;
+    
     flex-direction: column;
    
   }
@@ -111,7 +111,94 @@
     font-size: 28px;
     line-height: 32px;
   }
+  #img1 {
+    width: 500px;
+    height: 250px;
+    left: 128px;
+  }
+  
+  .cursos-blog {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+   
+  }
+  .post-item h2 {
+    width: 500px;
+   text-align: center;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 31px;
+    color: #009688;
+  }
 
+  .post-item p {
+    width: 280px;
+    font-style: normal;  
+    text-align: justify;
+    width: 500px;  
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;  
+    color: #000000;
+    margin-top: 16px;
+    margin-bottom: 2rem;
+  }
+
+  .post-item {
+    margin-bottom: 60px;
+  }
+#maisPost-p{
+  margin-left: 555px;
+}
+  #maisPost-p:hover {
+    text-decoration: none;
+    color: #ff4081;
+    background-color: #ff4081;
+    color: white;
+  }
+
+
+  #maisPost-p:hover {  
+   justify-content: center !important;  
+   
+   
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog-posts {
+    justify-content: center;
+    display: flex;    
+    flex-direction: column;
+   
+  }
+
+  .titulo-principal {
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .post-item h2 {
+    width: 280px;
+   text-align: center;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 31px;
+    color: #009688;
+  }
+  #img1 {
+    width: 293px;
+    height: 193px;
+    left: 128px;
+  }
   .cursos-blog {
     display: block;
     margin-left: 0;
@@ -121,9 +208,20 @@
   .post-item {
     margin-bottom: 60px;
   }
-#maisPost-p{
-  margin-left: 555px;
+
+.post-item p {
+  font-style: normal;  
+  text-align: justify;
+  width: 280px;  
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;  
+  color: #000000;
+  margin-top: 16px;
+  margin-bottom: 2rem;
 }
+
   #maisPost-p:hover {
     text-decoration: none;
     color: #ff4081;

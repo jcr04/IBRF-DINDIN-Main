@@ -3,7 +3,7 @@ let typingTimer;
 let nome = document.getElementById('nome');
 let email = document.getElementById('email');
 let enviado = document.getElementById('enviado')
-
+var VerdadeiroFalse = true
 
 
 
@@ -25,13 +25,7 @@ document.getElementById('cep').addEventListener("input",function buscaCep(){
          throw new Error('Erro ao fazer a requisição: ' + response.status);
         }
       
-            response.json().then(data=>{
-            console.log(data.localidade);
-            document.getElementById('cidade').value=data.localidade
-            document.getElementById('estado').value=data.uf
-            document.getElementById('msg').textContent=''
-
-      })
+        pegarCep(response);
       })
       .catch(error => {
         document.getElementById('msg').textContent='Cep invalido!'
@@ -47,7 +41,16 @@ document.getElementById('button-prof').addEventListener('click',()=>{
         enviado.textContent='Campos Nome e E-mail devem ser preenchidos!'
         enviado.style.color="#ea6e02"
 
-    }else{
+    }else {
+    
+      
+    if( VerdadeiroFalse=== false){
+      enviado.textContent='Cep não encontrado ou invalido!'
+      enviado.style.color="#ea6e02"
+      VerdadeiroFalse = true
+
+    }
+    else{
       enviado.textContent='Enviado!'
       enviado.style.color="green"
       document.getElementById('cidade').value=''
@@ -62,4 +65,25 @@ document.getElementById('button-prof').addEventListener('click',()=>{
      document.getElementById('endereco').value=''
      document.getElementById('email').value=''
     }
+  }
 })
+
+
+function pegarCep(response){
+   
+  response.json().then(data=>{
+          
+    if (typeof data.localidade ==='undefined' ){
+      document.getElementById('msg').textContent='Cep não encontrado!'
+      VerdadeiroFalse = false
+    }else{
+    document.getElementById('cidade').value=data.localidade
+    document.getElementById('estado').value=data.uf
+    document.getElementById('msg').textContent=''
+    PegarValorBoleano('true')
+    VerdadeiroFalse = true
+    }
+
+})
+
+}

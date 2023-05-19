@@ -106,3 +106,75 @@
   
   }
   
+  
+  @media screen and (min-height: 600px) and (max-height: 800px) {
+    /* Estilos para telas com altura entre 600px e 800px */
+    /* Coloque os estilos desejados aqui */
+    .crud{
+        height: 130vh !important;
+    }
+    .container-professor{
+        height: 110vh;
+    }
+    .coluna-btn-prof {
+        flex-wrap: wrap;
+        padding: 5px;
+        width: 327px;
+        height: 150px;
+        position: static;
+        display: flex;
+        margin-right: 0px;
+        align-items: center;
+        margin-top: 10px;
+    }
+  }
+  @media screen and (max-width: 375px){
+    /* Estilos para telas com altura entre 600px e 800px */
+    /* Coloque os estilos desejados aqui */
+
+ 
+    .container-professor {
+      padding-bottom: 10px;
+    }
+  }
+  @media screen and (max-width: 280px){
+    /* Estilos para telas com altura entre 600px e 800px */
+    /* Coloque os estilos desejados aqui */
+
+ 
+    .coluna-btn-prof {
+        flex-wrap: wrap;
+        padding: 5px;
+        width: 280px;
+        height: 150px;
+        position: static;
+        display: flex;
+        margin-right: 0px;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .content-prof {
+        width: 97vw;
+        height: 93px;
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #2e948a;
+        position: fixed;
+        padding-left: 7rem;
+        z-index: 9999;
+    }
+    .coluna-img-prof {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+    }
+    .img-prof {
+        vertical-align: middle;
+        border-style: none;
+        width: 267px;
+        margin-left: 191px;
+    }
+  }
+  

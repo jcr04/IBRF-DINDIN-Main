@@ -205,4 +205,8 @@
     height: 35%;
     margin-left: 0;
   } 
+
+  .coluna-btn {
+    width: auto;
+  }
 }

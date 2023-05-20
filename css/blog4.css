@@ -1,65 +1,67 @@
 .blog-posts {
-  padding-top: 1px;
-  padding-bottom: 30px;
+  padding-top: 5rem;
+  padding-bottom: 6.3rem;
   background-color: #f7f7f7;
-  width: 100vw;
   align-items: center;
 }
+
 .titulo-principal {
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 700;
-  font-size: 37px;
-  line-height: 43px;
+  font-size: 3rem;
+  line-height: 2.86rem;
   color: #009688;
-  margin-top: 91px;
-  margin-left: 130px;
-  margin-bottom: 73px;
+  margin-top: 5.11rem;
+  margin-left: 18rem;
+  margin-bottom: 7rem;
 }
 
 .cursos-blog {
   display: flex;
-  margin-left: 128px;
-  margin-right: 137px;
+  flex-wrap: wrap;
+  gap: 15rem;
+
+  display: flex;
+
+  margin: 0 auto;
+
+  width: 100%;
+  max-width: 70%;
   justify-content: space-between;
 }
 
 .post-item {
-  gap: 109px;
+  margin-bottom: 10rem;
+
+  width: 100%;
+
+  flex: 20%;
 }
 
 .post-item h2 {
-  width: 280px;
-
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 700;
-  font-size: 23px;
-  line-height: 31px;
+  font-size: 2rem;
+  line-height: 3.1rem;
   color: #009688;
 }
 
 .post-item p {
-  width: 280px;
   font-style: normal;
-
-  text-align: justify;
-  width: 293px;
 
   font-style: normal;
   font-weight: 300;
-  font-size: 17px;
-  line-height: 20px;
-
+  font-size: 2rem;
+  line-height: 2rem;
   color: #000000;
-  margin-top: 16px;
-  margin-bottom: 2rem;
 }
 
 #img1 {
-  width: 293px;
-  height: 193px;
-  left: 128px;
+  width: 100%;
+  height: 28rem;
+  left: 8.46rem;
 }
 
 .btn-post a {
@@ -70,19 +72,17 @@
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
-  line-height: 29px;
-  height: 51px;
-  border: 2px solid #ff4081;
-  border-radius: 62px;
-  margin-top: 70px;
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+  height: 5.1rem;
+  border: 0.02rem solid #ff4081;
+  border-radius: 6.2rem;
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
-  margin-left: 550px;
-  margin-right: 582px;
-  min-width: 260px;
+  max-width: 250px;
+  margin: 7px auto;
   color: #ff4081;
   background-color: #f7f7f7;
 }
@@ -92,147 +92,27 @@
   color: #ff4081;
   background-color: #ff4081;
   color: white;
-
 }
-
-@media screen and (max-width: 1167px) {
-  .blog-posts {
-    justify-content: center;
-    display: flex;
-    
-    flex-direction: column;
-   
-  }
-
-  .titulo-principal {
-    margin-top: 60px;
-    margin-left: 30px;
-    margin-bottom: 30px;
-    font-size: 28px;
-    line-height: 32px;
-  }
-  #img1 {
-    width: 500px;
-    height: 250px;
-    left: 128px;
-  }
-  
+@media (max-width: 768px) {
   .cursos-blog {
-    display: block;
-    margin-left: 0;
-    margin-right: 0;
-   
-  }
-  .post-item h2 {
-    width: 500px;
-   text-align: center;
-    font-family: "Ubuntu";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 31px;
-    color: #009688;
-  }
-
-  .post-item p {
-    width: 280px;
-    font-style: normal;  
-    text-align: justify;
-    width: 500px;  
-    font-style: normal;
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 20px;  
-    color: #000000;
-    margin-top: 16px;
-    margin-bottom: 2rem;
+    max-width: 70%;
+    justify-content: center;
+    gap: 5rem;
   }
 
   .post-item {
-    margin-bottom: 60px;
-  }
-#maisPost-p{
-  margin-left: 555px;
-}
-  #maisPost-p:hover {
-    text-decoration: none;
-    color: #ff4081;
-    background-color: #ff4081;
-    color: white;
-  }
-
-
-  #maisPost-p:hover {  
-   justify-content: center !important;  
-   
-   
+    flex: 0 0 90%;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .blog-posts {
-    justify-content: center;
-    display: flex;    
-    flex-direction: column;
-   
-  }
-
-  .titulo-principal {
-    margin-top: 60px;
-    margin-left: 30px;
-    margin-bottom: 30px;
-    font-size: 28px;
-    line-height: 32px;
-  }
-  .post-item h2 {
-    width: 280px;
-   text-align: center;
-    font-family: "Ubuntu";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 31px;
-    color: #009688;
-  }
-  #img1 {
-    width: 293px;
-    height: 193px;
-    left: 128px;
-  }
+@media (max-width: 420px) {
   .cursos-blog {
-    display: block;
-    margin-left: 0;
-    margin-right: 0;
+    flex-direction: column;
+    align-items: center;
   }
 
   .post-item {
-    margin-bottom: 60px;
-  }
-
-.post-item p {
-  font-style: normal;  
-  text-align: justify;
-  width: 280px;  
-  font-style: normal;
-  font-weight: 300;
-  font-size: 17px;
-  line-height: 20px;  
-  color: #000000;
-  margin-top: 16px;
-  margin-bottom: 2rem;
-}
-
-  #maisPost-p:hover {
-    text-decoration: none;
-    color: #ff4081;
-    background-color: #ff4081;
-    color: white;
-  }
-
-
-  #maisPost-p:hover {  
-   justify-content: center !important;  
-   
-   
+    flex: 0 0 90%;
+    margin-bottom: 3rem;
   }
 }

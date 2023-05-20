@@ -5,7 +5,7 @@ document.getElementById("btn-curso1").addEventListener("click",function Modal(){
     var btnCurso = document.getElementById("link")
     
     
-  img.src="./IMG/ilustra-poupando.png"
+  img.src="./img/ilustra-poupando.png"
   img.style.border='1px solid #419488'
   h2.textContent='Investimento para iniciantes'
   btnCurso.addEventListener("click",()=>{
@@ -26,7 +26,7 @@ document.getElementById("btn-curso1").addEventListener("click",function Modal(){
    
     
     h2.textContent='Poupando e Rendendo'
-       img.src="./IMG/ilustra-investimento.png"
+       img.src="./img/ilustra-investimento.png"
        btnCurso.addEventListener("click",()=>{
         btnCurso.href='./curso.html'
         btnCurso.target="_blank"

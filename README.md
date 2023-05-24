@@ -28,7 +28,7 @@ As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 HTML5 (Bootstrap),
 CSS,
 Javascript.
- Essas tecnologias foram escolhidas para garantir a criação de um site responsivo e com recursos avançados de interatividade.
+Essas tecnologias foram escolhidas para garantir a criação de um site responsivo e com recursos avançados de interatividade.
 
 # Resumo do Projeto
 O projeto DINDIN é um site financeiro que busca fornecer uma interface intuitiva e amigável para os usuários gerenciarem suas finanças pessoais. O site possui seis telas principais, cada uma com funcionalidades específicas:
@@ -49,5 +49,5 @@ Oferece acesso a artigos e conteúdos informativos sobre educação financeira, 
 Permite que os usuários entrem em contato com a equipe do DINDIN, enviando mensagens, dúvidas ou sugestões.
  
  
- # Conclusão:
- O projeto DINDIN, desenvolvido como parte do Projeto Integrador IBRF<>Tech em parceria com a Gama Academy, é uma demonstração do comprometimento e habilidades dos contribuidores envolvidos. Através da utilização das tecnologias HTML5 (Bootstrap), CSS e Javascript, o projeto foi capaz de entregar um site financeiro de qualidade, com interface responsiva e recursos avançados.
+# Conclusão:
+O projeto DINDIN, desenvolvido como parte do Projeto Integrador IBRF<>Tech em parceria com a Gama Academy, é uma demonstração do comprometimento e habilidades dos contribuidores envolvidos. Através da utilização das tecnologias HTML5 (Bootstrap), CSS e Javascript, o projeto foi capaz de entregar um site financeiro de qualidade, com interface responsiva e recursos avançados.
